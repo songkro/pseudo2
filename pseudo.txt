@@ -1,0 +1,49 @@
+berdasarkan keterangan di atas, buatlah algorima/pseudocode untuk menghitung resultan gaya pada sebuah mobil yang memiliki massa benda 600kg
+ketika didorong oleh tiga orang percepatannya adalah 2 m/s2
+
+STORE "massa" WITH VALUE 600
+STORE "percepatan" WITH VALUE 2
+STORE "gaya" EQUALS TO "massa" TIMES "percepatan"
+DISPLAY "gaya"
+END
+
+memasukan sebuah tahun
+apabila tahun tersebut habis dibagi 4 dan tidak habis dibagi 100 maka menampilkan kabisat
+apabila tahun tersebut habis dibagi 4, habis dibagi 100 dan habis dibagi 400 maka menampilkan kabisat
+apabila tahun tidak habis dibagi 4 maka menampilan bukan tahun kabisat
+
+STORE "tahun" WITH ANY VALUE
+IF "tahun" MOD 4 EQUALS TO 0 AND "tahun" MOD 100 EQUALS TO 1 THEN 
+    DISPLAY "kabisat"
+ELSE IF "tahun" MOD 4 EQUALS TO 0 AND "tahun" MOD 100 EQUALS TO O AND "tahun" MOD 400 EQUALS TO 0 THEN
+    DISPLAY "kabisat"
+ELSE
+    DISPLAY "bukan tahun kabisat"
+
+LAUNDRY DAY
+memasukkan pakaian
+jika baju belum menyentuh inputan pakaian maka MesinCuciMati
+jika baju sudah menyentuh inputan pakaian maka MesinCuciMenyala
+
+STORE "pakaian" WITH 0
+STORE "maxPakaian" with 20
+WHILE "pakaian" LOWER TO "maxPakaian" THEN
+    ADD "pakaian" by 1
+    DISPLAY "Mesin Cuci belum menyala"
+END WHILE
+    DISPLAY "Mesin Cuci menyala"
+
+seorang guru memeriksa kuku siswa siswinya sebanyak 40 orang dengan berkeliling kelas
+jika guru menemukan siswa memiliki kuku panjang maka guru marah, jika tidak guru akan memuji siswa tersebut
+
+STORE "siswa" WITH VALUE 0
+STORE "maxSiswa" WITH VALUE 40
+STORE "kukuSiswa" WITH VALUE "panjang" or "pendek"
+    WHILE "siswa" LOWER TO "maxSiswa"
+    IF "kukuSiswa" EQUALS TO "panjang" THEN
+    DISPLAY "guru marah"
+    ADD "siswa" BY 1
+    ELSE IF "kukuSiswa" EQUALS TO "pendek" THEN
+    DISPLAY "guru senang"
+    ADD "siswa" BY 1
+END WHILE
