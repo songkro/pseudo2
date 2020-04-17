@@ -32,7 +32,7 @@ WHILE "pakaian" LOWER TO "maxPakaian" THEN
     DISPLAY "Mesin Cuci belum menyala"
 END WHILE
     DISPLAY "Mesin Cuci menyala"
-
+PEMERIKSAAN KUKU
 seorang guru memeriksa kuku siswa siswinya sebanyak 40 orang dengan berkeliling kelas
 jika guru menemukan siswa memiliki kuku panjang maka guru marah, jika tidak guru akan memuji siswa tersebut
 
